@@ -1,0 +1,52 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/privacy",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/terms",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/home",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/signin",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/signup",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/cancel",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/success",
+        "destination": "/index.html"
+      },
+
+      {
+        "source": "/auth/riotcallback",
+        "destination": "/index.html"
+      },
+
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+
+
+    ]
+  }
+}

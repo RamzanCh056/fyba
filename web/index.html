@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--    <meta name="monetag" content="42da4d147f06781e4ade02d139069fe8">-->
+<!--  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7865429989298242"-->
+<!--          crossorigin="anonymous"></script>-->
+
+<!--  <script type='text/javascript' src='//pl21868073.toprevenuegate.com/2c/ad/2b/2cad2babb3dfd464e6cd5020af4c4038.js'></script>-->
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+
+<!--  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">-->
+
+<!--  <base href="$FLUTTER_BASE_HREF">-->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Join the Gaming Revolution Today!
+  Welcome to FYBA, the ultimates gaming destination where virtual worlds come alive and gaming enthusiasts unite. Immerse yourself in a universe of thrilling adventures, pulse-pounding action, and limitless possibilities. Whether you're a casual gamer seeking a quick escape or a hardcore player hungary for epic challenges, we've got you covered.
+">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>FYBA</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script src="stripe_config.js"></script>
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+
+
+
+  <script>
+
+        function isMobileDevice() {
+          // Regular expression to check for mobile User Agent patterns
+          var check = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+          return check.test(navigator.userAgent) || window.innerWidth <= 760;
+        }
+
+        function loadMobileScript() {
+          if (isMobileDevice()) {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = '//pl20932147.toprevenuegate.com/6a/bd/0b/6abd0ba4f9422444b29ffa46f10aa944.js';
+            document.head.appendChild(script);
+          }
+        }
+
+        // Call the function to load the script
+        //loadMobileScript();
+
+
+
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+ </script>
+
+
+</body>
+</html>
